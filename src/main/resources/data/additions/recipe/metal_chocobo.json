@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:shaper_armor_trim_smithing_template"
+    },
+    "base": {
+        "item": "additional-weapons:kingdom_key"
+    },
+    "addition": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "additional-weapons:metal_chocobo"
+    }
+}

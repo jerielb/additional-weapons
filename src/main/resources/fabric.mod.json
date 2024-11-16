@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "additional-weapons",
+	"version": "${version}",
+	"name": "Additional Weapons",
+	"description": "Adds additional weapons...",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/additional-weapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.jerielb.additional_weapons.AdditionalWeapons"
+		],
+		"fabric-datagen": [
+			"com.jerielb.additional_weapons.AdditionalWeaponsDataGenerator"
+		]
+	},
+	"mixins": [
+		"additional-weapons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
