@@ -1,9 +1,7 @@
 package com.jerielb.additional_weapons.item;
 
 import com.jerielb.additional_weapons.AdditionalWeapons;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolMaterials;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -50,6 +48,10 @@ public class ModItems {
 			.attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 3, -2.4F))));
 	public static final Item SOUL_EATER = registerItem("soul_eater", new SwordItem(ToolMaterials.NETHERITE, (new Item.Settings()).fireproof()
 			.attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 3, -2.4F))));
+	
+	// shield(s)
+	public static final Item KNIGHTS_SHIELD = registerItem("knights_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	
 	
 	// helper method
 	private static Item registerItem(String name, Item item) {

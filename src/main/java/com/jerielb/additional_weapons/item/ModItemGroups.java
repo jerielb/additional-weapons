@@ -39,6 +39,8 @@ public class ModItemGroups {
 						entries.add(ModItems.ULTIMA_WEAPON);
 						entries.add(ModItems.KINGDOM_KEY_DARKSIDE);
 						entries.add(ModItems.SOUL_EATER);
+						
+						entries.add(ModItems.KNIGHTS_SHIELD);
 					})
 					.build());
 	
