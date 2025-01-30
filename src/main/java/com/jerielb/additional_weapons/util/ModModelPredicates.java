@@ -11,6 +11,7 @@ public class ModModelPredicates {
 		AdditionalWeapons.LOGGER.info("Registering Model Predicates for " + AdditionalWeapons.MOD_ID);
 		
 		registerCustomShield(ModItems.KNIGHTS_SHIELD);
+		registerCustomShield(ModItems.DREAM_SHIELD);
 	}
 	
 	private static void registerCustomShield(Item item) {

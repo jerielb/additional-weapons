@@ -41,6 +41,7 @@ public class ModItemGroups {
 						entries.add(ModItems.SOUL_EATER);
 						
 						entries.add(ModItems.KNIGHTS_SHIELD);
+						entries.add(ModItems.DREAM_SHIELD);
 					})
 					.build());
 	
