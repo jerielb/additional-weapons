@@ -5,6 +5,14 @@
 		"0": "additional-weapons:item/shields/knights_shield",
 		"particle": "knights_shield"
 	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "additional-weapons:item/knights_shield_blocking"
+		}
+	],
 	"elements": [
 		{
 			"from": [16, 4, 0],
@@ -109,14 +117,6 @@
 				"up": {"uv": [5.75, 3, 5, 1.5], "texture": "#0"},
 				"down": {"uv": [6, 3, 5.25, 4.5], "texture": "#0"}
 			}
-		}
-	],
-	"overrides": [
-		{
-			"predicate": {
-				"blocking": 1
-			},
-			"model": "additional-weapons:item/knights_shield_blocking"
 		}
 	],
 	"display": {

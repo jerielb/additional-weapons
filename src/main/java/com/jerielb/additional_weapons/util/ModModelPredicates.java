@@ -12,6 +12,7 @@ public class ModModelPredicates {
 		
 		registerCustomShield(ModItems.KNIGHTS_SHIELD);
 		registerCustomShield(ModItems.DREAM_SHIELD);
+		registerCustomShield(ModItems.STOUT_SHIELD);
 	}
 	
 	private static void registerCustomShield(Item item) {

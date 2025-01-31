@@ -5,6 +5,14 @@
 		"2": "additional-weapons:item/shields/dream_shield",
 		"particle": "dream_shield"
 	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "additional-weapons:item/dream_shield_blocking"
+		}
+	],
 	"elements": [
 		{
 			"name": "Handle",
@@ -86,14 +94,6 @@
 			}
 		}
 	],
-	"overrides": [
-	{
-		"predicate": {
-			"blocking": 1
-		},
-		"model": "additional-weapons:item/dream_shield_blocking"
-	}
-],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 0],

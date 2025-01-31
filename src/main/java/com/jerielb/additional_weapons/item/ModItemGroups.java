@@ -4,19 +4,17 @@ import com.jerielb.additional_weapons.AdditionalWeapons;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-	// tab group for ITEMS
-	public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-			Identifier.of(AdditionalWeapons.MOD_ID, "additional_items"),
+	public static final ItemGroup KEYBLADES = Registry.register(Registries.ITEM_GROUP,
+			Identifier.of(AdditionalWeapons.MOD_ID, "keyblades"),
 			FabricItemGroup.builder()
-					.icon(() -> new ItemStack(Items.CHARCOAL)) // icon of the creative tab
-					.displayName(Text.translatable("itemgroup.additions.additional_items")) // to be changed in /lang/en_us.json
+					.icon(() -> new ItemStack(ModItems.KINGDOM_KEY)) // icon of the creative tab
+					.displayName(Text.translatable("itemgroup.additional-weapons.additional_keyblades")) // to be changed in /lang/en_us.json
 					.entries((displayContext, entries) -> {
 						// add items
 						entries.add(ModItems.KINGDOM_KEY);
@@ -39,9 +37,18 @@ public class ModItemGroups {
 						entries.add(ModItems.ULTIMA_WEAPON);
 						entries.add(ModItems.KINGDOM_KEY_DARKSIDE);
 						entries.add(ModItems.SOUL_EATER);
-						
+					})
+					.build());
+	
+	public static final ItemGroup SHIELDS = Registry.register(Registries.ITEM_GROUP,
+			Identifier.of(AdditionalWeapons.MOD_ID, "shields"),
+			FabricItemGroup.builder()
+					.icon(() -> new ItemStack(ModItems.KNIGHTS_SHIELD)) // icon of the creative tab
+					.displayName(Text.translatable("itemgroup.additional-weapons.additional_shields")) // to be changed in /lang/en_us.json
+					.entries((displayContext, entries) -> {
 						entries.add(ModItems.KNIGHTS_SHIELD);
 						entries.add(ModItems.DREAM_SHIELD);
+						entries.add(ModItems.STOUT_SHIELD);
 					})
 					.build());
 	

@@ -1,6 +1,6 @@
 {
-  "itemgroup.additional-weapons.additional_blocks": "Additional Blocks",
-  "itemgroup.additional-weapons.additional_items": "Additional Items",
+  "itemgroup.additional-weapons.additional_keyblades": "Keyblades",
+  "itemgroup.additional-weapons.additional_shields": "Shields",
   
   "item.additional-weapons.kingdom_key": "Kingdom Key",
   "item.additional-weapons.jungle_king": "Jungle King",
@@ -23,6 +23,7 @@
 
   "item.additional-weapons.knights_shield": "Knights Shield",
   "item.additional-weapons.dream_shield": "Dream Shield",
+  "item.additional-weapons.stout_shield": "Stout Shield",
   
   "item.additional-weapons.kingdom_key_darkside": "Kingdom Key Darkside",
   "item.additional-weapons.soul_eater": "Soul Eater"
