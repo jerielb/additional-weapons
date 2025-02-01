@@ -18,6 +18,9 @@
 		"main": [
 			"com.jerielb.additional_weapons.AdditionalWeapons"
 		],
+		"client": [
+			"com.jerielb.additional_weapons.AdditionalWeaponsClient"
+		],
 		"fabric-datagen": [
 			"com.jerielb.additional_weapons.AdditionalWeaponsDataGenerator"
 		]

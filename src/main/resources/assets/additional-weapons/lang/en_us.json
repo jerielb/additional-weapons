@@ -1,6 +1,6 @@
 {
-  "itemgroup.additional-weapons.additional_blocks": "Additional Blocks",
-  "itemgroup.additional-weapons.additional_items": "Additional Items",
+  "itemgroup.additional-weapons.additional_keyblades": "Keyblades",
+  "itemgroup.additional-weapons.additional_shields": "Shields",
   
   "item.additional-weapons.kingdom_key": "Kingdom Key",
   "item.additional-weapons.jungle_king": "Jungle King",
@@ -20,6 +20,12 @@
   "item.additional-weapons.diamond_dust": "Diamond Dust",
   "item.additional-weapons.one_winged_angel": "One Winged Angel",
   "item.additional-weapons.ultima_weapon": "Ultima Weapon",
+
+  "item.additional-weapons.knights_shield": "Knights Shield",
+  "item.additional-weapons.dream_shield": "Dream Shield",
+  "item.additional-weapons.stout_shield": "Stout Shield",
+  "item.additional-weapons.golem_shield": "Golem Shield",
+  "item.additional-weapons.adamant_shield": "Adamant Shield",
   
   "item.additional-weapons.kingdom_key_darkside": "Kingdom Key Darkside",
   "item.additional-weapons.soul_eater": "Soul Eater"
