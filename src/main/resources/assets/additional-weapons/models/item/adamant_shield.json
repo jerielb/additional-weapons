@@ -2,9 +2,17 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"4": "additional-weapons:item/shields/golem_shield",
-		"particle": "golem_shield"
+		"4": "additional-weapons:item/shields/adamant_shield",
+		"particle": "adamant_shield"
 	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "additional-weapons:item/adamant_shield_blocking"
+		}
+	],
 	"elements": [
 		{
 			"name": "Handle",
@@ -176,12 +184,10 @@
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 1, 11],
-			"translation": [5.25, -6, 8.75]
+			"translation": [5.25, -8.75, 9.5]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 1, 11],
-			"translation": [5.25, -6, 8.75]
+			"translation": [5.25, -8.75, 9.5]
 		},
 		"ground": {
 			"translation": [0, 2, 0],
@@ -203,7 +209,7 @@
 	},
 	"groups": [
 		{
-			"name": "golem_shield_blocking",
+			"name": "adamant_shield_shield",
 			"origin": [0, 4, 0],
 			"color": 0,
 			"children": [

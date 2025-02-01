@@ -209,7 +209,7 @@
 	},
 	"groups": [
 		{
-			"name": "stout_shield",
+			"name": "golem_shield",
 			"origin": [0, 4, 0],
 			"color": 0,
 			"children": [

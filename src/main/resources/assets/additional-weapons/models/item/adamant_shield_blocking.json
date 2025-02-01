@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"4": "additional-weapons:item/shields/golem_shield",
-		"particle": "golem_shield"
+		"4": "additional-weapons:item/shields/adamant_shield",
+		"particle": "adamant_shield"
 	},
 	"elements": [
 		{
@@ -203,7 +203,7 @@
 	},
 	"groups": [
 		{
-			"name": "golem_shield_blocking",
+			"name": "adamant_shield_blocking",
 			"origin": [0, 4, 0],
 			"color": 0,
 			"children": [
