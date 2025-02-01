@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [64, 64],
+	"texture_size": [32, 32],
 	"textures": {
 		"0": "additional-weapons:item/shields/knights_shield",
-		"particle": "knights_shield"
+		"particle": "additional-weapons:item/shields/knights_shield"
 	},
 	"overrides": [
 		{
@@ -138,7 +138,7 @@
 		},
 		"ground": {
 			"translation": [0, 2, 0],
-			"scale": [0.5, 0.5, 0.5]
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
 			"rotation": [30, 144, 0],
