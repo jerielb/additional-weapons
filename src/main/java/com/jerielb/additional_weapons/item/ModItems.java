@@ -58,6 +58,9 @@ public class ModItems {
 //	public static final Item ADAMANT_SHIELD = registerItem("adamant_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
 	
+	// munny
+	public static final Item MUNNY = registerItem("munny", new Item(new Item.Settings()));
+	
 	// helper method
 	private static Item registerItem(String name, Item item) {
 		return Registry.register(Registries.ITEM, Identifier.of(AdditionalWeapons.MOD_ID, name), item);
