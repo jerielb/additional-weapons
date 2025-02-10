@@ -1,6 +1,7 @@
 {
   "itemgroup.additional-weapons.additional_keyblades": "Keyblades",
   "itemgroup.additional-weapons.additional_shields": "Shields",
+  "itemgroup.additional-weapons.misc": "Misc",
   
   "item.additional-weapons.kingdom_key": "Kingdom Key",
   "item.additional-weapons.jungle_king": "Jungle King",
@@ -30,6 +31,8 @@
   "item.additional-weapons.kingdom_key_darkside": "Kingdom Key Darkside",
   "item.additional-weapons.soul_eater": "Soul Eater",
   
-  "item.additional-weapons.munny": "Munny"
-  
+  "item.additional-weapons.munny": "Munny",
+
+  "item.additional-weapons.bandit_spawn_egg": "Bandit Spawn Egg",
+  "entities.additional-weapons.bandit": "Bandit"
 }

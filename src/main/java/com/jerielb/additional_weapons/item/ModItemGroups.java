@@ -37,8 +37,6 @@ public class ModItemGroups {
 						entries.add(ModItems.ULTIMA_WEAPON);
 						entries.add(ModItems.KINGDOM_KEY_DARKSIDE);
 						entries.add(ModItems.SOUL_EATER);
-						
-						entries.add(ModItems.MUNNY);
 					})
 					.build());
 	
@@ -54,6 +52,17 @@ public class ModItemGroups {
 //						entries.add(ModItems.STOUT_SHIELD);
 //						entries.add(ModItems.GOLEM_SHIELD);
 //						entries.add(ModItems.ADAMANT_SHIELD);
+					})
+					.build());
+	
+	public static final ItemGroup MISC = Registry.register(Registries.ITEM_GROUP,
+			Identifier.of(AdditionalWeapons.MOD_ID, "misc"),
+			FabricItemGroup.builder()
+					.icon(() -> new ItemStack(ModItems.MUNNY)) // icon of the creative tab
+					.displayName(Text.translatable("itemgroup.additional-weapons.misc")) // to be changed in /lang/en_us.json
+					.entries((displayContext, entries) -> {
+						entries.add(ModItems.MUNNY);
+						entries.add(ModItems.BANDIT_SPAWN_EGG);
 					})
 					.build());
 	

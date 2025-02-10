@@ -1,6 +1,7 @@
 package com.jerielb.additional_weapons.item;
 
 import com.jerielb.additional_weapons.AdditionalWeapons;
+import com.jerielb.additional_weapons.entity.ModEntities;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -60,6 +61,10 @@ public class ModItems {
 	
 	// munny
 	public static final Item MUNNY = registerItem("munny", new Item(new Item.Settings()));
+	
+	// entity spawn eggs
+	public static final Item BANDIT_SPAWN_EGG = registerItem("bandit_spawn_egg",
+			new SpawnEggItem(ModEntities.BANDIT, 0x292967, 0x56503A, new Item.Settings()));
 	
 	// helper method
 	private static Item registerItem(String name, Item item) {
