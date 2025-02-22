@@ -63,6 +63,8 @@ public class ModItems {
 	public static final Item MUNNY = registerItem("munny", new Item(new Item.Settings()));
 	
 	// entity spawn eggs
+	public static final Item SOLDIER_SPAWN_EGG = registerItem("soldier_spawn_egg",
+			new SpawnEggItem(ModEntities.SOLDIER, 0x292967, 0x56503A, new Item.Settings()));
 	public static final Item BANDIT_SPAWN_EGG = registerItem("bandit_spawn_egg",
 			new SpawnEggItem(ModEntities.BANDIT, 0x292967, 0x56503A, new Item.Settings()));
 	

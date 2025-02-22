@@ -62,6 +62,7 @@ public class ModItemGroups {
 					.displayName(Text.translatable("itemgroup.additional-weapons.misc")) // to be changed in /lang/en_us.json
 					.entries((displayContext, entries) -> {
 						entries.add(ModItems.MUNNY);
+						entries.add(ModItems.SOLDIER_SPAWN_EGG);
 						entries.add(ModItems.BANDIT_SPAWN_EGG);
 					})
 					.build());

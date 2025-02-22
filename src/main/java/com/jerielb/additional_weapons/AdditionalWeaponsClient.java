@@ -2,6 +2,7 @@ package com.jerielb.additional_weapons;
 
 import com.jerielb.additional_weapons.entity.ModEntities;
 import com.jerielb.additional_weapons.entity.client.BanditEntityRenderer;
+import com.jerielb.additional_weapons.entity.client.SoldierEntityRenderer;
 import com.jerielb.additional_weapons.util.ModModelPredicates;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
@@ -15,9 +16,7 @@ public class AdditionalWeaponsClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		ModModelPredicates.registerModelPredicates();
 		
-		
-		EntityRendererRegistry.register(ModEntities.BANDIT, (context) -> {
-			return new BanditEntityRenderer(context);
-		});
+		EntityRendererRegistry.register(ModEntities.SOLDIER, SoldierEntityRenderer::new);
+		EntityRendererRegistry.register(ModEntities.BANDIT, BanditEntityRenderer::new);
 	}
 }
