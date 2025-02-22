@@ -66,6 +66,7 @@ public class ModItemGroups {
 						entries.add(ModItems.BANDIT_SPAWN_EGG);
 						entries.add(ModItems.PIRATE_SPAWN_EGG);
 						entries.add(ModItems.POWER_WILD_SPAWN_EGG);
+						entries.add(ModItems.WHITE_MUSHROOM_SPAWN_EGG);
 					})
 					.build());
 	

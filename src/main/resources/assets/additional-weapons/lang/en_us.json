@@ -37,8 +37,10 @@
   "item.additional-weapons.bandit_spawn_egg": "Bandit Spawn Egg",
   "item.additional-weapons.pirate_spawn_egg": "Pirate Spawn Egg",
   "item.additional-weapons.power_wild_spawn_egg": "Power Wild Spawn Egg",
+  "item.additional-weapons.white_mushroom_spawn_egg": "White Mushroom Spawn Egg",
   "entities.additional-weapons.soldier": "Soldier",
   "entities.additional-weapons.bandit": "Bandit",
   "entities.additional-weapons.pirate": "Pirate",
-  "entities.additional-weapons.power_wild": "Power Wild"
+  "entities.additional-weapons.power_wild": "Power Wild",
+  "entities.additional-weapons.white_mushroom": "White Mushroom"
 }

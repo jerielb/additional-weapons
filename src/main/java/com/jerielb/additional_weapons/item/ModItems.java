@@ -71,6 +71,8 @@ public class ModItems {
 			new SpawnEggItem(ModEntities.PIRATE, 0x1F2429, 0xB90613, new Item.Settings()));
 	public static final Item POWER_WILD_SPAWN_EGG = registerItem("power_wild_spawn_egg",
 			new SpawnEggItem(ModEntities.POWER_WILD, 0x6EA3C5, 0x374B63, new Item.Settings()));
+	public static final Item WHITE_MUSHROOM_SPAWN_EGG = registerItem("white_mushroom_spawn_egg",
+			new SpawnEggItem(ModEntities.WHITE_MUSHROOM, 0xCCC483, 0xB92A2E, new Item.Settings()));
 	
 	// helper method
 	private static Item registerItem(String name, Item item) {

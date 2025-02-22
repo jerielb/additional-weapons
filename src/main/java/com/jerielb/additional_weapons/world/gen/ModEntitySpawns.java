@@ -40,7 +40,7 @@ public class ModEntitySpawns {
 		
 		SpawnRestriction.register(ModEntities.PIRATE, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, BanditEntity::canSpawnInDark);
 		
-		// Heartless Pirate
+		// Heartless Power Wild
 		BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
 					BiomeKeys.TAIGA, BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA,
 					BiomeKeys.JUNGLE, BiomeKeys.SPARSE_JUNGLE, BiomeKeys.BAMBOO_JUNGLE
@@ -48,5 +48,15 @@ public class ModEntitySpawns {
 				SpawnGroup.MONSTER, ModEntities.POWER_WILD, 100, 1, 2);
 		
 		SpawnRestriction.register(ModEntities.POWER_WILD, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, BanditEntity::canSpawnInDark);
+		
+		// Heartless White Mushroom
+		BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
+					BiomeKeys.SWAMP, BiomeKeys.MANGROVE_SWAMP,
+					BiomeKeys.FLOWER_FOREST, BiomeKeys.SUNFLOWER_PLAINS,
+					BiomeKeys.CHERRY_GROVE
+				),
+				SpawnGroup.MONSTER, ModEntities.WHITE_MUSHROOM, 100, 1, 2);
+		
+		SpawnRestriction.register(ModEntities.WHITE_MUSHROOM, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, BanditEntity::canSpawnInDark);
 	}
 }
