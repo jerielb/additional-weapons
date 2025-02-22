@@ -64,9 +64,11 @@ public class ModItems {
 	
 	// entity spawn eggs
 	public static final Item SOLDIER_SPAWN_EGG = registerItem("soldier_spawn_egg",
-			new SpawnEggItem(ModEntities.SOLDIER, 0x292967, 0x56503A, new Item.Settings()));
+			new SpawnEggItem(ModEntities.SOLDIER, 0x1E274E, 0xBBC0C6, new Item.Settings()));
 	public static final Item BANDIT_SPAWN_EGG = registerItem("bandit_spawn_egg",
-			new SpawnEggItem(ModEntities.BANDIT, 0x292967, 0x56503A, new Item.Settings()));
+			new SpawnEggItem(ModEntities.BANDIT, 0x3A3522, 0xB6BB92, new Item.Settings()));
+	public static final Item PIRATE_SPAWN_EGG = registerItem("pirate_spawn_egg",
+			new SpawnEggItem(ModEntities.PIRATE, 0x1F2429, 0xB90613, new Item.Settings()));
 	
 	// helper method
 	private static Item registerItem(String name, Item item) {

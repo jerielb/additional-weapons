@@ -64,6 +64,7 @@ public class ModItemGroups {
 						entries.add(ModItems.MUNNY);
 						entries.add(ModItems.SOLDIER_SPAWN_EGG);
 						entries.add(ModItems.BANDIT_SPAWN_EGG);
+						entries.add(ModItems.PIRATE_SPAWN_EGG);
 					})
 					.build());
 	

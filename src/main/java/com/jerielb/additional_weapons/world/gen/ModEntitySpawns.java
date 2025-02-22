@@ -17,8 +17,6 @@ public class ModEntitySpawns {
 		BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
 						BiomeKeys.PLAINS,
 						BiomeKeys.FOREST, BiomeKeys.BIRCH_FOREST, BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.DARK_FOREST
-//						BiomeKeys.TAIGA, BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA,
-//						BiomeKeys.JUNGLE, BiomeKeys.SPARSE_JUNGLE, BiomeKeys.BAMBOO_JUNGLE
 				),
 				SpawnGroup.MONSTER, ModEntities.SOLDIER, 100, 1, 2);
 		
@@ -33,5 +31,16 @@ public class ModEntitySpawns {
 				SpawnGroup.MONSTER, ModEntities.BANDIT, 100, 1, 2);
 		
 		SpawnRestriction.register(ModEntities.BANDIT, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, BanditEntity::canSpawnInDark);
+		
+		// Heartless Pirate
+		BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
+					BiomeKeys.BEACH, BiomeKeys.STONY_SHORE
+				),
+				SpawnGroup.MONSTER, ModEntities.PIRATE, 100, 1, 2);
+		
+		SpawnRestriction.register(ModEntities.PIRATE, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, BanditEntity::canSpawnInDark);
+		
+//		BiomeKeys.TAIGA, BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA,
+//				BiomeKeys.JUNGLE, BiomeKeys.SPARSE_JUNGLE, BiomeKeys.BAMBOO_JUNGLE
 	}
 }

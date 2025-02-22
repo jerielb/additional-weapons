@@ -33,7 +33,10 @@
   
   "item.additional-weapons.munny": "Munny",
 
+  "item.additional-weapons.soldier_spawn_egg": "Soldier Spawn Egg",
   "item.additional-weapons.bandit_spawn_egg": "Bandit Spawn Egg",
+  "item.additional-weapons.pirate_spawn_egg": "Pirate Spawn Egg",
   "entities.additional-weapons.soldier": "Soldier",
-  "entities.additional-weapons.bandit": "Bandit"
+  "entities.additional-weapons.bandit": "Bandit",
+  "entities.additional-weapons.pirate": "Pirate"
 }
