@@ -101,10 +101,12 @@
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"firstperson_righthand": {
-			"translation": [1, -4.75, 9.5]
+			"rotation": [0, 0, 10],
+			"translation": [-2.25, -6.25, 4]
 		},
 		"firstperson_lefthand": {
-			"translation": [1, -4.75, 9.5]
+			"rotation": [0, 0, 10],
+			"translation": [-2.25, -6.25, 4]
 		},
 		"ground": {
 			"translation": [0, 2, 0],

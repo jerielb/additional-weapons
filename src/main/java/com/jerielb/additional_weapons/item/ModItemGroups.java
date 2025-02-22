@@ -55,6 +55,21 @@ public class ModItemGroups {
 					})
 					.build());
 	
+	public static final ItemGroup MISC = Registry.register(Registries.ITEM_GROUP,
+			Identifier.of(AdditionalWeapons.MOD_ID, "misc"),
+			FabricItemGroup.builder()
+					.icon(() -> new ItemStack(ModItems.MUNNY)) // icon of the creative tab
+					.displayName(Text.translatable("itemgroup.additional-weapons.misc")) // to be changed in /lang/en_us.json
+					.entries((displayContext, entries) -> {
+						entries.add(ModItems.MUNNY);
+						entries.add(ModItems.SOLDIER_SPAWN_EGG);
+						entries.add(ModItems.BANDIT_SPAWN_EGG);
+						entries.add(ModItems.PIRATE_SPAWN_EGG);
+						entries.add(ModItems.POWER_WILD_SPAWN_EGG);
+						entries.add(ModItems.WHITE_MUSHROOM_SPAWN_EGG);
+					})
+					.build());
+	
 	// gets called by the Main class onInitialize() method
 	public static void registerItemGroups() {
 		AdditionalWeapons.LOGGER.info("Registering Item Groups for " + AdditionalWeapons.MOD_ID);

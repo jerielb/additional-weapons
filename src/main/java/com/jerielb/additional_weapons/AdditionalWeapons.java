@@ -1,7 +1,9 @@
 package com.jerielb.additional_weapons;
 
+import com.jerielb.additional_weapons.entity.ModEntities;
 import com.jerielb.additional_weapons.item.ModItemGroups;
 import com.jerielb.additional_weapons.item.ModItems;
+import com.jerielb.additional_weapons.world.gen.ModEntitySpawns;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,5 +18,8 @@ public class AdditionalWeapons implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		
 		ModItems.registerModItems();
+		
+		ModEntities.registerModEntities();
+		ModEntitySpawns.addSpawns();
 	}
 }

@@ -5,7 +5,9 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
+import java.util.Optional;
 
 /** Instead of adding tags to the JSON file use this class instead 
  * <p> 
@@ -47,5 +49,17 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.ULTIMA_WEAPON, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.KINGDOM_KEY_DARKSIDE, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.SOUL_EATER, Models.HANDHELD);
+		
+		// entity spawn eggs
+		itemModelGenerator.register(ModItems.SOLDIER_SPAWN_EGG,
+				new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
+		itemModelGenerator.register(ModItems.BANDIT_SPAWN_EGG, 
+				new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
+		itemModelGenerator.register(ModItems.PIRATE_SPAWN_EGG, 
+				new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
+		itemModelGenerator.register(ModItems.POWER_WILD_SPAWN_EGG, 
+				new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
+		itemModelGenerator.register(ModItems.WHITE_MUSHROOM_SPAWN_EGG, 
+				new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
 	}
 }
