@@ -17,5 +17,6 @@ public class AdditionalWeaponsClient implements ClientModInitializer {
 		EntityRendererRegistry.register(ModEntities.PIRATE, PirateEntityRenderer::new);
 		EntityRendererRegistry.register(ModEntities.POWER_WILD, PowerWildEntityRenderer::new);
 		EntityRendererRegistry.register(ModEntities.WHITE_MUSHROOM, WhiteMushroomEntityRenderer::new);
+		EntityRendererRegistry.register(ModEntities.SHADOW, ShadowEntityRenderer::new);
 	}
 }

@@ -58,5 +58,15 @@ public class ModEntitySpawns {
 				SpawnGroup.MONSTER, ModEntities.WHITE_MUSHROOM, 100, 1, 2);
 		
 		SpawnRestriction.register(ModEntities.WHITE_MUSHROOM, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, BanditEntity::canSpawnInDark);
+		
+		// Heartless Shadow
+		BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
+					BiomeKeys.SNOWY_PLAINS, BiomeKeys.SNOWY_SLOPES, BiomeKeys.SNOWY_TAIGA,
+					BiomeKeys.ICE_SPIKES
+				),
+				SpawnGroup.MONSTER, ModEntities.SHADOW, 100, 1, 2);
+		
+		SpawnRestriction.register(ModEntities.SHADOW, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, BanditEntity::canSpawnInDark);
+		
 	}
 }

@@ -73,6 +73,8 @@ public class ModItems {
 			new SpawnEggItem(ModEntities.POWER_WILD, 0x6EA3C5, 0x374B63, new Item.Settings()));
 	public static final Item WHITE_MUSHROOM_SPAWN_EGG = registerItem("white_mushroom_spawn_egg",
 			new SpawnEggItem(ModEntities.WHITE_MUSHROOM, 0xCCC483, 0xB92A2E, new Item.Settings()));
+	public static final Item SHADOW_SPAWN_EGG = registerItem("shadow_spawn_egg",
+			new SpawnEggItem(ModEntities.SHADOW, 0x070707, 0xA28B2D, new Item.Settings()));
 	
 	// helper method
 	private static Item registerItem(String name, Item item) {
