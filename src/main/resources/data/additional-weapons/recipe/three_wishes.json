@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smithing_transform",
     "template": {
-        "item": "minecraft:dune_armor_trim_smithing_template"
+        "item": "additional-weapons:keychain_three_wishes"
     },
     "base": {
         "item": "additional-weapons:kingdom_key"

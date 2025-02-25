@@ -29,6 +29,7 @@ public class ModModelProvider extends FabricModelProvider {
 	
 	@Override
 	public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+		// keyblades
 		itemModelGenerator.register(ModItems.KINGDOM_KEY, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.JUNGLE_KING, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.THREE_WISHES, Models.HANDHELD);
@@ -49,6 +50,28 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.ULTIMA_WEAPON, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.KINGDOM_KEY_DARKSIDE, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.SOUL_EATER, Models.HANDHELD);
+		
+		// keychains
+		itemModelGenerator.register(ModItems.KEYCHAIN_KINGDOM_KEY, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_JUNGLE_KING, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_THREE_WISHES, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_CRABCLAW, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_PUMPKINHEAD, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_FAIRY_HARP, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_WISHING_STAR, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_SPELLBINDER, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_METAL_CHOCOBO, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_OLYMPIA, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_LIONHEART, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_OATHKEEPER, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_OBLIVION, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_LADY_LUCK, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_DIVINE_ROSE, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_DIAMOND_DUST, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_ONE_WINGED_ANGEL, Models.GENERATED);
+		itemModelGenerator.register(ModItems.KEYCHAIN_ULTIMA_WEAPON, Models.GENERATED);
+//		itemModelGenerator.register(ModItems.KEYCHAIN_KINGDOM_KEY_DARKSIDE, Models.GENERATED);
+//		itemModelGenerator.register(ModItems.KEYCHAIN_SOUL_EATER, Models.GENERATED);
 		
 		// entity spawn eggs
 		itemModelGenerator.register(ModItems.SOLDIER_SPAWN_EGG,

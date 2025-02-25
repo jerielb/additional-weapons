@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smithing_transform",
     "template": {
-        "item": "minecraft:rib_armor_trim_smithing_template"
+        "item": "additional-weapons:keychain_one_winged_angel"
     },
     "base": {
         "item": "additional-weapons:kingdom_key"

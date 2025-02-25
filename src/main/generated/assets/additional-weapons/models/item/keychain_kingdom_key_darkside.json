@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "additional-weapons:item/keychain_kingdom_key_darkside"
+  }
+}
