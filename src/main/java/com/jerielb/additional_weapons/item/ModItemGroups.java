@@ -62,6 +62,27 @@ public class ModItemGroups {
 					.displayName(Text.translatable("itemgroup.additional-weapons.misc")) // to be changed in /lang/en_us.json
 					.entries((displayContext, entries) -> {
 						entries.add(ModItems.MUNNY);
+						entries.add(ModItems.KEYCHAIN_KINGDOM_KEY);
+						entries.add(ModItems.KEYCHAIN_JUNGLE_KING);
+						entries.add(ModItems.KEYCHAIN_THREE_WISHES);
+						entries.add(ModItems.KEYCHAIN_CRABCLAW);
+						entries.add(ModItems.KEYCHAIN_PUMPKINHEAD);
+						entries.add(ModItems.KEYCHAIN_FAIRY_HARP);
+						entries.add(ModItems.KEYCHAIN_WISHING_STAR);
+						entries.add(ModItems.KEYCHAIN_SPELLBINDER);
+						entries.add(ModItems.KEYCHAIN_METAL_CHOCOBO);
+						entries.add(ModItems.KEYCHAIN_OLYMPIA);
+						entries.add(ModItems.KEYCHAIN_LIONHEART);
+						entries.add(ModItems.KEYCHAIN_OATHKEEPER);
+						entries.add(ModItems.KEYCHAIN_OBLIVION);
+						entries.add(ModItems.KEYCHAIN_LADY_LUCK);
+						entries.add(ModItems.KEYCHAIN_DIVINE_ROSE);
+						entries.add(ModItems.KEYCHAIN_DIAMOND_DUST);
+						entries.add(ModItems.KEYCHAIN_ONE_WINGED_ANGEL);
+						entries.add(ModItems.KEYCHAIN_ULTIMA_WEAPON);
+//						entries.add(ModItems.KEYCHAIN_KINGDOM_KEY_DARKSIDE);
+//						entries.add(ModItems.KEYCHAIN_SOUL_EATER);
+						
 						entries.add(ModItems.SOLDIER_SPAWN_EGG);
 						entries.add(ModItems.BANDIT_SPAWN_EGG);
 						entries.add(ModItems.PIRATE_SPAWN_EGG);

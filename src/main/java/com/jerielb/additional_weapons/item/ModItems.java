@@ -62,6 +62,29 @@ public class ModItems {
 	// munny
 	public static final Item MUNNY = registerItem("munny", new Item(new Item.Settings()));
 	
+	// keychains
+	public static final Item KEYCHAIN_KINGDOM_KEY = registerItem("keychain_kingdom_key", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_JUNGLE_KING = registerItem("keychain_jungle_king", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_THREE_WISHES = registerItem("keychain_three_wishes", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_CRABCLAW = registerItem("keychain_crabclaw", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_PUMPKINHEAD = registerItem("keychain_pumpkinhead", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_FAIRY_HARP = registerItem("keychain_fairy_harp", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_WISHING_STAR = registerItem("keychain_wishing_star", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_SPELLBINDER = registerItem("keychain_spellbinder", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_METAL_CHOCOBO = registerItem("keychain_metal_chocobo", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_OLYMPIA = registerItem("keychain_olympia", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_LIONHEART = registerItem("keychain_lionheart", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_OATHKEEPER = registerItem("keychain_oathkeeper", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_OBLIVION = registerItem("keychain_oblivion", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_LADY_LUCK = registerItem("keychain_lady_luck", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_DIVINE_ROSE = registerItem("keychain_divine_rose", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_DIAMOND_DUST = registerItem("keychain_diamond_dust", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_ONE_WINGED_ANGEL = registerItem("keychain_one_winged_angel", new Item(new Item.Settings()));
+	public static final Item KEYCHAIN_ULTIMA_WEAPON = registerItem("keychain_ultima_weapon", new Item(new Item.Settings()));
+	
+//	public static final Item KEYCHAIN_KINGDOM_KEY_DARKSIDE = registerItem("keychain_kingdom_key_darkside", new Item(new Item.Settings()));
+//	public static final Item KEYCHAIN_SOUL_EATER = registerItem("keychain_soul_eater", new Item(new Item.Settings()));
+	
 	// entity spawn eggs
 	public static final Item SOLDIER_SPAWN_EGG = registerItem("soldier_spawn_egg",
 			new SpawnEggItem(ModEntities.SOLDIER, 0x1E274E, 0xBBC0C6, new Item.Settings()));

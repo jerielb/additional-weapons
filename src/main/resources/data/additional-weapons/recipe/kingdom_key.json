@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smithing_transform",
     "template": {
-        "item": "minecraft:netherite_upgrade_smithing_template"
+        "item": "additional-weapons:keychain_kingdom_key"
     },
     "base": {
         "item": "minecraft:diamond_sword"

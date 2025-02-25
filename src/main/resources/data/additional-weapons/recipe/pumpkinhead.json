@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smithing_transform",
     "template": {
-        "item": "minecraft:snout_armor_trim_smithing_template"
+        "item": "additional-weapons:keychain_pumpkinhead"
     },
     "base": {
         "item": "additional-weapons:kingdom_key"
