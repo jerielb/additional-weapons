@@ -30,7 +30,7 @@
   
   "item.additional-weapons.kingdom_key_darkside": "Kingdom Key Darkside",
   "item.additional-weapons.soul_eater": "Soul Eater",
-  
+
   "item.additional-weapons.munny": "Munny",
   "item.additional-weapons.keychain_kingdom_key": "Kingdom Key Keychain",
   "item.additional-weapons.keychain_jungle_king": "Jungle King Keychain",
@@ -65,5 +65,7 @@
   "entities.additional-weapons.pirate": "Pirate",
   "entities.additional-weapons.power_wild": "Power Wild",
   "entities.additional-weapons.white_mushroom": "White Mushroom",
-  "entities.additional-weapons.shadow": "Shadow"
+  "entities.additional-weapons.shadow": "Shadow",
+  
+  "entities.additional-weapons.merchant": "Merchant"
 }
