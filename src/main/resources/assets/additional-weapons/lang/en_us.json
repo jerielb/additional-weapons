@@ -67,5 +67,5 @@
   "entities.additional-weapons.white_mushroom": "White Mushroom",
   "entities.additional-weapons.shadow": "Shadow",
   
-  "entities.additional-weapons.merchant": "Merchant"
+  "entity.minecraft.villager.merchant": "Merchant"
 }

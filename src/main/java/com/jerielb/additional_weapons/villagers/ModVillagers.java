@@ -16,11 +16,10 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 public class ModVillagers {
 	public static final RegistryKey<PointOfInterestType> MERCHANT_POI_KEY = registerPoiKey("merchant_poi");
-	public static final PointOfInterestType MERCHANT_POI = registerPOI("merchant_poi", Blocks.END_STONE);
+	public static final PointOfInterestType MERCHANT_POI = registerPOI("merchant_poi", Blocks.SPAWNER);
 	
 	public static final VillagerProfession MERCHANT = registerProfession("merchant", MERCHANT_POI_KEY);
-
-
+	
 	private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
 		return Registry.register(Registries.VILLAGER_PROFESSION, Identifier.of(AdditionalWeapons.MOD_ID, name),
 				new VillagerProfession(name, entry -> entry.matchesKey(type), entry -> entry.matchesKey(type),
