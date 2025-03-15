@@ -57,6 +57,7 @@ public class ModItemGroups {
 						entries.add(ModItems.GIGAS_FIST_SHIELD);
 						
 						entries.add(ModItems.HERCS_SHIELD);
+						entries.add(ModItems.SEVEN_ELEMENTS_SHIELD);
 					})
 					.build());
 	
