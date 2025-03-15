@@ -52,6 +52,9 @@ public class ModItemGroups {
 //						entries.add(ModItems.STOUT_SHIELD);
 //						entries.add(ModItems.GOLEM_SHIELD);
 //						entries.add(ModItems.ADAMANT_SHIELD);
+						entries.add(ModItems.STOUT_SHIELD);
+						entries.add(ModItems.GOLEM_SHIELD);
+						entries.add(ModItems.ADAMANT_SHIELD);
 					})
 					.build());
 	

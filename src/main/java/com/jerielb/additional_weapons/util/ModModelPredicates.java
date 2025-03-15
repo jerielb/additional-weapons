@@ -16,6 +16,9 @@ public class ModModelPredicates {
 //		registerCustomShield(ModItems.STOUT_SHIELD);
 //		registerCustomShield(ModItems.GOLEM_SHIELD);
 //		registerCustomShield(ModItems.ADAMANT_SHIELD);
+		registerCustomShield(ModItems.STOUT_SHIELD);
+		registerCustomShield(ModItems.GOLEM_SHIELD);
+		registerCustomShield(ModItems.ADAMANT_SHIELD);
 	}
 	
 	private static void registerCustomShield(Item item) {
