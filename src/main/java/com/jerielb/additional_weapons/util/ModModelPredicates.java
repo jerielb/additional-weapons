@@ -19,6 +19,8 @@ public class ModModelPredicates {
 		
 		registerCustomShield(ModItems.SMASHER_SHIELD);
 		registerCustomShield(ModItems.GIGAS_FIST_SHIELD);
+		
+		registerCustomShield(ModItems.HERCS_SHIELD);
 	}
 	
 	private static void registerCustomShield(Item item) {

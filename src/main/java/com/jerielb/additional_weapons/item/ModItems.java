@@ -61,6 +61,8 @@ public class ModItems {
 	public static final Item SMASHER_SHIELD = registerItem("smasher_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item GIGAS_FIST_SHIELD = registerItem("gigas_fist_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
+	public static final Item HERCS_SHIELD = registerItem("hercs_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	
 	// munny
 	public static final Item MUNNY = registerItem("munny", new Item(new Item.Settings()));
 	

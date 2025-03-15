@@ -55,6 +55,8 @@ public class ModItemGroups {
 						
 						entries.add(ModItems.SMASHER_SHIELD);
 						entries.add(ModItems.GIGAS_FIST_SHIELD);
+						
+						entries.add(ModItems.HERCS_SHIELD);
 					})
 					.build());
 	
