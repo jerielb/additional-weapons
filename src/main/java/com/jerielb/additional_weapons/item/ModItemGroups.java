@@ -49,12 +49,12 @@ public class ModItemGroups {
 						entries.add(ModItems.KNIGHTS_SHIELD);
 						entries.add(ModItems.DREAM_SHIELD);
 						
-//						entries.add(ModItems.STOUT_SHIELD);
-//						entries.add(ModItems.GOLEM_SHIELD);
-//						entries.add(ModItems.ADAMANT_SHIELD);
 						entries.add(ModItems.STOUT_SHIELD);
 						entries.add(ModItems.GOLEM_SHIELD);
 						entries.add(ModItems.ADAMANT_SHIELD);
+						
+						entries.add(ModItems.SMASHER_SHIELD);
+						entries.add(ModItems.GIGAS_FIST_SHIELD);
 					})
 					.build());
 	

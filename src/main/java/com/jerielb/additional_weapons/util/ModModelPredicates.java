@@ -13,12 +13,12 @@ public class ModModelPredicates {
 		registerCustomShield(ModItems.KNIGHTS_SHIELD);
 		registerCustomShield(ModItems.DREAM_SHIELD);
 		
-//		registerCustomShield(ModItems.STOUT_SHIELD);
-//		registerCustomShield(ModItems.GOLEM_SHIELD);
-//		registerCustomShield(ModItems.ADAMANT_SHIELD);
 		registerCustomShield(ModItems.STOUT_SHIELD);
 		registerCustomShield(ModItems.GOLEM_SHIELD);
 		registerCustomShield(ModItems.ADAMANT_SHIELD);
+		
+		registerCustomShield(ModItems.SMASHER_SHIELD);
+		registerCustomShield(ModItems.GIGAS_FIST_SHIELD);
 	}
 	
 	private static void registerCustomShield(Item item) {

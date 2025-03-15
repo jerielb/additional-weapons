@@ -54,13 +54,12 @@ public class ModItems {
 	public static final Item KNIGHTS_SHIELD = registerItem("knights_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item DREAM_SHIELD = registerItem("dream_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
-//	public static final Item STOUT_SHIELD = registerItem("stout_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
-//	public static final Item GOLEM_SHIELD = registerItem("golem_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
-//	public static final Item ADAMANT_SHIELD = registerItem("adamant_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item STOUT_SHIELD = registerItem("stout_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item GOLEM_SHIELD = registerItem("golem_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item ADAMANT_SHIELD = registerItem("adamant_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
+	public static final Item SMASHER_SHIELD = registerItem("smasher_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item GIGAS_FIST_SHIELD = registerItem("gigas_fist_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
 	// munny
 	public static final Item MUNNY = registerItem("munny", new Item(new Item.Settings()));
