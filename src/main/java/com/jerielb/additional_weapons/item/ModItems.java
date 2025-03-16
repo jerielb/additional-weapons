@@ -58,6 +58,9 @@ public class ModItems {
 	public static final Item GOLEM_SHIELD = registerItem("golem_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item ADAMANT_SHIELD = registerItem("adamant_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
+	public static final Item MYTHRIL_SHIELD = registerItem("mythril_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item ONYX_SHIELD = registerItem("onyx_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	
 	public static final Item SMASHER_SHIELD = registerItem("smasher_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item GIGAS_FIST_SHIELD = registerItem("gigas_fist_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	

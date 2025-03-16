@@ -17,6 +17,9 @@ public class ModModelPredicates {
 		registerCustomShield(ModItems.GOLEM_SHIELD);
 		registerCustomShield(ModItems.ADAMANT_SHIELD);
 		
+		registerCustomShield(ModItems.MYTHRIL_SHIELD);
+		registerCustomShield(ModItems.ONYX_SHIELD);
+		
 		registerCustomShield(ModItems.SMASHER_SHIELD);
 		registerCustomShield(ModItems.GIGAS_FIST_SHIELD);
 		

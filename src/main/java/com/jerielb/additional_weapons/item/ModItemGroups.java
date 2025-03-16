@@ -53,6 +53,9 @@ public class ModItemGroups {
 						entries.add(ModItems.GOLEM_SHIELD);
 						entries.add(ModItems.ADAMANT_SHIELD);
 						
+						entries.add(ModItems.MYTHRIL_SHIELD);
+						entries.add(ModItems.ONYX_SHIELD);
+						
 						entries.add(ModItems.SMASHER_SHIELD);
 						entries.add(ModItems.GIGAS_FIST_SHIELD);
 						
