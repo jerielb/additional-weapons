@@ -525,10 +525,12 @@
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"firstperson_righthand": {
-			"translation": [7.5, -9.75, 3.25]
+			"translation": [6.75, -7.75, 0],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"firstperson_lefthand": {
-			"translation": [7.5, -9.75, 3.25]
+			"translation": [6.75, -7.75, 0],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"ground": {
 			"translation": [0, 0.75, 0],
