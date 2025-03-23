@@ -54,10 +54,22 @@ public class ModItems {
 	public static final Item KNIGHTS_SHIELD = registerItem("knights_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	public static final Item DREAM_SHIELD = registerItem("dream_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
-//	public static final Item STOUT_SHIELD = registerItem("stout_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
-//	public static final Item GOLEM_SHIELD = registerItem("golem_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
-//	public static final Item ADAMANT_SHIELD = registerItem("adamant_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item STOUT_SHIELD = registerItem("stout_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item GOLEM_SHIELD = registerItem("golem_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item ADAMANT_SHIELD = registerItem("adamant_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
+	public static final Item MYTHRIL_SHIELD = registerItem("mythril_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item ONYX_SHIELD = registerItem("onyx_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	
+	public static final Item SMASHER_SHIELD = registerItem("smasher_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item GIGAS_FIST_SHIELD = registerItem("gigas_fist_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	
+	public static final Item HERCS_SHIELD = registerItem("hercs_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item GENJI_SHIELD = registerItem("genji_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item DEFENDER_SHIELD = registerItem("defender_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item SAVE_THE_KING_SHIELD = registerItem("save_the_king_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item MIGHTY_SHIELD = registerItem("mighty_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
+	public static final Item SEVEN_ELEMENTS_SHIELD = registerItem("seven_elements_shield", new ShieldItem(new Item.Settings().maxDamage(336)));
 	
 	// munny
 	public static final Item MUNNY = registerItem("munny", new Item(new Item.Settings()));

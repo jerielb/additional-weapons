@@ -47,11 +47,20 @@ public class ModItemGroups {
 					.displayName(Text.translatable("itemgroup.additional-weapons.additional_shields")) // to be changed in /lang/en_us.json
 					.entries((displayContext, entries) -> {
 						entries.add(ModItems.KNIGHTS_SHIELD);
+						entries.add(ModItems.STOUT_SHIELD);
+						entries.add(ModItems.SMASHER_SHIELD);
+						entries.add(ModItems.GOLEM_SHIELD);
+						entries.add(ModItems.MYTHRIL_SHIELD);
+						entries.add(ModItems.ADAMANT_SHIELD);
+						entries.add(ModItems.ONYX_SHIELD);
+						entries.add(ModItems.GIGAS_FIST_SHIELD);
+						entries.add(ModItems.HERCS_SHIELD);
+						entries.add(ModItems.GENJI_SHIELD);
+						entries.add(ModItems.DEFENDER_SHIELD);
 						entries.add(ModItems.DREAM_SHIELD);
-						
-//						entries.add(ModItems.STOUT_SHIELD);
-//						entries.add(ModItems.GOLEM_SHIELD);
-//						entries.add(ModItems.ADAMANT_SHIELD);
+						entries.add(ModItems.SAVE_THE_KING_SHIELD);
+						entries.add(ModItems.MIGHTY_SHIELD);
+						entries.add(ModItems.SEVEN_ELEMENTS_SHIELD);
 					})
 					.build());
 	
@@ -61,7 +70,6 @@ public class ModItemGroups {
 					.icon(() -> new ItemStack(ModItems.MUNNY)) // icon of the creative tab
 					.displayName(Text.translatable("itemgroup.additional-weapons.misc")) // to be changed in /lang/en_us.json
 					.entries((displayContext, entries) -> {
-						entries.add(ModItems.MUNNY);
 						entries.add(ModItems.KEYCHAIN_KINGDOM_KEY);
 						entries.add(ModItems.KEYCHAIN_JUNGLE_KING);
 						entries.add(ModItems.KEYCHAIN_THREE_WISHES);
@@ -82,6 +90,8 @@ public class ModItemGroups {
 						entries.add(ModItems.KEYCHAIN_ULTIMA_WEAPON);
 //						entries.add(ModItems.KEYCHAIN_KINGDOM_KEY_DARKSIDE);
 //						entries.add(ModItems.KEYCHAIN_SOUL_EATER);
+						
+						entries.add(ModItems.MUNNY);
 						
 						entries.add(ModItems.SOLDIER_SPAWN_EGG);
 						entries.add(ModItems.BANDIT_SPAWN_EGG);
