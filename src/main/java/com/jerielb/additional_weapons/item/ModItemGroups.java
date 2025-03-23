@@ -61,6 +61,7 @@ public class ModItemGroups {
 						
 						entries.add(ModItems.HERCS_SHIELD);
 						entries.add(ModItems.GENJI_SHIELD);
+						entries.add(ModItems.DEFENDER_SHIELD);
 						entries.add(ModItems.SAVE_THE_KING_SHIELD);
 						entries.add(ModItems.MIGHTY_SHIELD);
 						entries.add(ModItems.SEVEN_ELEMENTS_SHIELD);
