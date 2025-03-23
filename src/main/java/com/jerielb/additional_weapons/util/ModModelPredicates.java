@@ -24,6 +24,7 @@ public class ModModelPredicates {
 		registerCustomShield(ModItems.GIGAS_FIST_SHIELD);
 		
 		registerCustomShield(ModItems.HERCS_SHIELD);
+		registerCustomShield(ModItems.GENJI_SHIELD);
 		registerCustomShield(ModItems.SAVE_THE_KING_SHIELD);
 		registerCustomShield(ModItems.MIGHTY_SHIELD);
 		registerCustomShield(ModItems.SEVEN_ELEMENTS_SHIELD);
