@@ -22,29 +22,25 @@
   "item.additional-weapons.one_winged_angel": "One Winged Angel",
   "item.additional-weapons.ultima_weapon": "Ultima Weapon",
 
+  "item.additional-weapons.kingdom_key_darkside": "Kingdom Key Darkside",
+  "item.additional-weapons.soul_eater": "Soul Eater",
+
   "item.additional-weapons.knights_shield": "Knights Shield",
-  "item.additional-weapons.dream_shield": "Dream Shield",
-  
   "item.additional-weapons.stout_shield": "Stout Shield",
-  "item.additional-weapons.golem_shield": "Golem Shield",
-  "item.additional-weapons.adamant_shield": "Adamant Shield",
-  
-  "item.additional-weapons.mythril_shield": "Mythril Shield",
-  "item.additional-weapons.onyx_shield": "Onyx Shield",
-  
   "item.additional-weapons.smasher_shield": "Smasher Shield",
+  "item.additional-weapons.golem_shield": "Golem Shield",
+  "item.additional-weapons.mythril_shield": "Mythril Shield",
+  "item.additional-weapons.adamant_shield": "Adamant Shield",
+  "item.additional-weapons.onyx_shield": "Onyx Shield",
   "item.additional-weapons.gigas_fist_shield": "Gigas Fist Shield",
-  
   "item.additional-weapons.hercs_shield": "Herc's Shield",
   "item.additional-weapons.genji_shield": "Genji Shield",
   "item.additional-weapons.defender_shield": "Defender Shield",
+  "item.additional-weapons.dream_shield": "Dream Shield",
   "item.additional-weapons.save_the_king_shield": "Save the King Shield",
   "item.additional-weapons.mighty_shield": "Mighty Shield",
   "item.additional-weapons.seven_elements_shield": "Seven Elements Shield",
-  
-  "item.additional-weapons.kingdom_key_darkside": "Kingdom Key Darkside",
-  "item.additional-weapons.soul_eater": "Soul Eater",
-  
+
   "item.additional-weapons.munny": "Munny",
   "item.additional-weapons.keychain_kingdom_key": "Kingdom Key Keychain",
   "item.additional-weapons.keychain_jungle_king": "Jungle King Keychain",
@@ -79,5 +75,7 @@
   "entities.additional-weapons.pirate": "Pirate",
   "entities.additional-weapons.power_wild": "Power Wild",
   "entities.additional-weapons.white_mushroom": "White Mushroom",
-  "entities.additional-weapons.shadow": "Shadow"
+  "entities.additional-weapons.shadow": "Shadow",
+  
+  "entity.minecraft.villager.merchant": "Merchant"
 }
